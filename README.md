@@ -1,4 +1,4 @@
-# kinetune-com
+# Kinetune
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,130 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-kinetune-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://kinetune.com/
+Kinetune provides AI-powered music video creation services, offering lyric videos, Spotify Canvas, cover art, and full music videos. Users can upload a track and receive automatically generated visual content timed to the audio, with options for performance, story, and various styles. Pricing starts at $10 per month with credit packs and unused credits refunded within 14 days. The platform includes a developer API for programmatic access to video generation.
+
+**Areas:** Music · AI · Video · SaaS · Media
+
+## Kinetune on APIs.io
+
+Everything profiled for Kinetune is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/kinetune-com/](https://apis.io/providers/kinetune-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Kinetune API](https://apis.io/apis/kinetune-com/api/) — Programmatic API for creating lyric videos, Spotify Canvas, music videos and managing looks.
+- [Kinetune API V1 API](https://apis.io/apis/kinetune-com/kinetune-api-v1-api/) — Lyric videos, Spotify Canvas loops and AI music videos from your songs. The same operations power the app, the MCP server, the CLI and the n8n node.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Kinetune Com Webhooks](https://apis.io/asyncapis/kinetune-com/kinetune-com-webhooks/)
+
+#### JSON Schema (5)
+
+The data models the API reads and writes.
+
+- [MusicVideoPlan](https://apis.io/schemas/kinetune-com/kinetune-com-music-video-plan/)
+- [SongBrief](https://apis.io/schemas/kinetune-com/kinetune-com-song-brief/)
+- [Upload](https://apis.io/schemas/kinetune-com/kinetune-com-upload/)
+- [Video](https://apis.io/schemas/kinetune-com/kinetune-com-video/)
+- [VideoSharing](https://apis.io/schemas/kinetune-com/kinetune-com-video-sharing/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Kinetune Com Context](https://apis.io/jsonld/kinetune-com/kinetune-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Kinetune API Rules](https://apis.io/rules/kinetune-com/kinetune-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Kinetune Authentication](https://apis.io/security/kinetune-com/kinetune-com-authentication/)
+- [Kinetune Domain Security](https://apis.io/security/kinetune-com/kinetune-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Kinetune Plans Pricing](https://apis.io/plans/kinetune-com/kinetune-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://kinetune.com/)
+- [Documentation](https://dev.kinetune.com/)
+- [Getting started](https://kinetune.com/developers/quickstart)
+- [API reference](https://kinetune.com/developers/reference)
+- [Pricing](https://kinetune.com/pricing)
+- [Support](https://kinetune.com/support)
+- [Changelog](https://kinetune.com/whats-new)
+- [Terms of service](https://kinetune.com/terms)
+- [Privacy policy](https://kinetune.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 64.8** — strong · rubric 0.27.0 · scored 2026-11-13
+
+| Facet | Score |
+|---|---|
+| Discoverability | 67.9 |
+| Contract quality | 64.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 31.6 |
+| Developer ergonomics | 61.9 |
+| Access clarity | 73.2 |
+
+**Agent readiness 45.5** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | documented (partial credit) |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/kinetune-com/](https://apis.io/providers/kinetune-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Kinetune: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/kinetune-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
